@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezRent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./EZRENT_DESIGN_logo.jpg" alt="ezrent">
+            </div>
+            <div class="mid-nav-item">
+                <ul id="side-menu">
+                    <li class="right-nav-items-for-small-screen">
+                        <a href="#" id="login-btn">Login</a>
+                        <a href="#" id="signup-btn">Sign Up</a>
+                    </li>
+                    <li class="right-nav-items-for-small-screen"></li>
+                    <li><a href="#our-services">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <i class="fa-solid fa-times side-menu-close-btn" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars side-menu-open-btn" onclick="openMenu()"></i>
+            </div>
+            <div class="right-nav-items">
+                <a href="#" id="login-btn">Login</a>
+                <a href="#" id="signup-btn">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    <section id="banner-section">
+        <div class="section-ctr">
+            <div class="section-left">
+                <h4>The <span>Easiest Way</span> to Self-Manage Your Investment Property</h4>
+                <p> We empower and enable self-managing landlords to better manage investment properties and grow their wealth</p>
+                <div class="banner-btn">
+                    <a href="#">Get Started</a>
+                    <a href="#">Find My Home</a>
+                </div>
+            </div>
+            <div class="section-right">
+                <img src="./sec-1-img.png" alt="" style="width: 100%;">
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="card-wraper">
+            <div class="property-details-card">
+                <a href="#">
+                    <img src="https://ezrent.drupalchamp.org/web/sites/default/files/styles/slick_media/public/2024-02/aubrey-odom-mabey-ITzfgP77DTg-unsplash_0_0.jpg?itok=9iZoM_35" alt="" style="width: 100%;">
+                </a>
+                <div class="property-details">
+                    <p class="property-title">
+                        <a href="#">Property-1</a>
+                    </p>
+                    <div class="facility">
+                        <span class="bed-count"><i class="fa-solid fa-bed"></i>2</span>
+                        <span class="bathroom-count"><i class="fa fa-bath"></i>1</span>
+                        <span class="garage-count"><i class="fa-solid fa-car"></i>1</span>
+                    </div>
+                    <p class="rent">Rent <span>100.00 $/week</span></p>
+                </div>
+            </div>
+            <div class="property-details-card">
+                <a href="#">
+                    <img src="https://ezrent.drupalchamp.org/web/sites/default/files/styles/slick_media/public/2024-02/stephan-bechert-yFV39g6AZ5o-unsplash_0.jpg?itok=kTX_iO47" alt="" style="width: 100%;">
+                </a>
+                <div class="property-details">
+                    <p class="property-title">
+                        <a href="#">Property-2</a>
+                    </p>
+                    <div class="facility">
+                        <span class="bed-count"><i class="fa-solid fa-bed"></i>2</span>
+                        <span class="bathroom-count"><i class="fa fa-bath"></i>1</span>
+                        <span class="garage-count"><i class="fa-solid fa-car"></i>1</span>
+                    </div>
+                    <p class="rent">Rent <span>100.00 $/week</span></p>
+                </div>
+            </div>
+            <div class="property-details-card">
+                <a href="#">
+                    <img src="https://ezrent.drupalchamp.org/web/sites/default/files/styles/slick_media/public/2024-02/aubrey-odom-mabey-ITzfgP77DTg-unsplash_0.jpg?itok=3WRnEquP" alt="" style="width: 100%;">
+                </a>
+                <div class="property-details">
+                    <p class="property-title">
+                        <a href="#">Property-3</a>
+                    </p>
+                    <div class="facility">
+                        <span class="bed-count"><i class="fa-solid fa-bed"></i>2</span>
+                        <span class="bathroom-count"><i class="fa fa-bath"></i>1</span>
+                        <span class="garage-count"><i class="fa-solid fa-car"></i>1</span>
+                    </div>
+                    <p class="rent">Rent <span>100.00 $/week</span></p>
+                </div>
+            </div>
+            <div class="property-details-card">
+                <a href="#">
+                    <img src="https://ezrent.drupalchamp.org/web/sites/default/files/styles/slick_media/public/2024-02/florian-schmidinger-b_79nOqf95I-unsplash_12.jpg?itok=2P1gLcxi" alt="" style="width: 100%;">
+                </a>
+                <div class="property-details">
+                    <p class="property-title">
+                        <a href="#">Property-4</a>
+                    </p>
+                    <div class="facility">
+                        <span class="bed-count"><i class="fa-solid fa-bed"></i>2</span>
+                        <span class="bathroom-count"><i class="fa fa-bath"></i>1</span>
+                        <span class="garage-count"><i class="fa-solid fa-car"></i>1</span>
+                    </div>
+                    <p class="rent">Rent <span>100.00 $/week</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-btn">
+            <a href="#">View All</a>
+        </div>
+    </main>
+    <section id="about-section">
+        <div class="card-wraper">
+            <div class="card">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/info_img.png" alt="">
+                <h3 class="count">2.5M</h3>
+                <p>Investment properties in Australia</p>
+            </div>
+            <div class="card">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/info_img2.png" alt="">
+                <h3 class="count">7,00,000</h3>
+                <p>Properties are self managed</p>
+            </div>
+            <div class="card">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/info_img3.png" alt="">
+                <h3 class="count">28%</h3>
+                <p>Increasing Self-managed</p>
+            </div>
+            <div class="card">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/info_img4.png" alt="">
+                <h3 class="count">800</h3>
+                <p>Properties managed by Ezrent</p>
+            </div>
+        </div>
+    </section>
+    <section id="our-services">
+        <h2>Our Services</h2>
+        <div class="section-ctr">
+            <div class="section-left">
+                <h3 class="service-title landlord">Landlord</h3>
+                <p class="service-subtitle landlord">Powerful tools for landlords</p>
+                <h5 class="service-description">Simply property management with</h5>
+                <div class="service-list">
+                    <ul>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/note.png" alt="">
+                            <span>Property Listing</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/setting-2.png" alt="">
+                            <span>Automated Maintainance</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/wallet-2.png" alt="">
+                            <span>Rent Payment Collection</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/coin.png" alt="">
+                            <span>Financial Dashboard</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/radar.png" alt="">
+                            <span>Real-time Notification</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/strongbox.png" alt="">
+                            <span>Expenses and Income Reports</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-right">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/landlord.png" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div class="section-ctr">
+            <div class="section-left">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/tenant.png" alt="" style="width: 100%;">
+            </div>
+            <div class="section-right">
+                <h3 class="service-title tenant">Tenant</h3>
+                <p class="service-subtitle tenant">Tenant focused features</p>
+                <div class="service-list">
+                    <ul>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/house-2.png" alt="">
+                            <span>Access a dedicated tenant portal</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/security-card.png" alt="">
+                            <span>Rental payments</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/search-normal.png" alt="">
+                            <span>Search for properties</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/building.png" alt="">
+                            <span>Communicate with your landlord</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section-ctr">
+            <div class="section-left">
+                <h3 class="service-title tradie">Tradie</h3>
+                <p class="service-subtitle tradie">You focus on the work, we focus on getting the work to you. <b>No joining fees</b></p>
+                <div class="service-list">
+                    <ul>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/briefcase_0.png" alt="">
+                            <span>Find nearby jobs in your trade</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/radar_1.png" alt="">
+                            <span>Real-time notifications</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/search-normal_1.png" alt="">
+                            <span>Search for properties</span>
+                        </li>
+                        <li>
+                            <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/note-2_0.png" alt="">
+                            <span>Option to collect payment via the platform as well</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section-right">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/tradie.png" alt="" style="width: 100%;">
+            </div>
+        </div>
+    </section>
+    <section id="contact-section">
+        <div class="section-ctr">
+            <div class="section-left">
+                <h2>Keen to see more?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate vel eos ducimus in corporis nisi?</p>
+                <div class="enquiry-form">
+                    <form action="#">
+                        <div class="input-fields">
+                            <div class="input-row">
+                                <div class="input-col">
+                                    <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                                </div>
+                                <div class="input-col">
+                                    <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-col">
+                                    <input type="email" name="email" id="email" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-col">
+                                    <input type="tel" name="phone-number" id="phone-number" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-col">
+                                    <input type="text" name="message" id="message" placeholder="Message">
+                                </div>
+                            </div>
+                            <div class="input-row">
+                                <div class="input-col">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="section-right">
+                <img src="https://ezrent.drupalchamp.org/web/sites/default/files/inline-images/Frame.png" alt="" style="width: 100%;">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-nav">
+            <div class="info">
+                <img src="./EZRENT_DESIGN_logo.jpg" alt="ezrent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus aspernatur autem ex repellendus voluptate id, eligendi error voluptatem, corporis fugiat.</p>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Ezrent</div>
+                <div class="footer-col-items">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                    <a href="#">FAQs</a>
+                    <a href="#">Blog</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Landlords</div>
+                <div class="footer-col-items">
+                    <a href="#">Find Trades</a>
+                    <a href="#">Add Listing</a>
+                    <a href="#">Pricing</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Tenants</div>
+                <div class="footer-col-items">
+                    <a href="#">Find My Home</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <div class="footer-col-title">Tradies</div>
+                <div class="footer-col-items">
+                    <a href="#">Find Nearby Jobs</a>
+                    <a href="#">Join Ezrent - Free</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </footer>
+    <div class="copyright-info">
+        <div>&copy;Copyright @ezrent 2024 | All Right Reserved</div>
+        <div><a href="#">Privacy Policy</a> and <a href="#">terms & conditions</a></div>
+    </div>
+    <script src="https://kit.fontawesome.com/5fa39ebbdc.js" crossorigin="anonymous"></script>
+    <script>
+        
+        var sideMenu = document.getElementById('side-menu');
+        function openMenu(){
+            sideMenu.style.right = "0";
+        };
+        function closeMenu(){
+            sideMenu.style.right = "-250px";
+        };
+
+    </script>
+</body>
+</html>
